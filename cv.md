@@ -14,6 +14,7 @@
   - Photoshop, Figma for use the layout
 
 ### Code example:
+`` javascript
     function isPalindrome(line) {
     let start = '';
     let finish = '';
@@ -28,6 +29,6 @@
     } else {
       return(false);
     }
-}
+} ``
 
 **Basic knowledge in English**
