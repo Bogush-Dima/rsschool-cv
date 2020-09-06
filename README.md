@@ -1,1 +1,1 @@
-https://bogush-dima.github.io/rsschool-cv/cv.md
+https://bogush-dima.github.io/rsschool-cv/cv
