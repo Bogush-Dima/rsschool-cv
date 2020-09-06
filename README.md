@@ -1,1 +1,1 @@
-# rsschool-cv
+https://bogush-dima.github.io/rsschool-cv/
