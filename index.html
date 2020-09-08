@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>dzmitry bogush</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img class="photo"
+        src="https://avatars3.githubusercontent.com/u/68421669?s=460&u=b1f35b7ab730ae37f9e9883a59e6e6988d8e3571&v=4"
+        alt="dzmitry bogush">
+      <div class="header__inner">
+        <h1 class="main-title">
+          dzmitry bogush
+        </h1>
+        <div class="contact">
+          <h3 class="title">
+            contact with me:
+          </h3>
+          <ul class="adresses">
+            <li class="adresses__item"><span>Skype:</span> live:.cid.ab958dff95a83783</li>
+            <li class="adresses__item"><span>Phone:</span> (MTS: +375255269755)</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary">
+        <h3 class="title">
+          summary:
+        </h3>
+        <p class="text">
+          I test lerning WEB-develope near 1 year ago and at that moment I realized that I like it, I want do it, I want
+          lern it more. Now become WEB-developer it's my general dream and I ready go till he end
+        </p>
+      </section>
+
+      <section class="skills">
+        <h3 class="title">
+          skills:
+        </h3>
+        <ul class="list">
+          <li class="list__item">HTML, CSS, SCSS</li>
+          <li class="list__item">Basic knowledge in JS, Qjuery</li>
+          <li class="list__item">Photoshop, Figma for use the layout</li>
+        </ul>
+      </section>
+
+      <section class="code">
+        <h3 class="title">
+          code example:
+        </h3>
+        <code>
+          <pre>
+            function isPalindrome(line) {
+              let start = '';
+              let finish = '';
+              if(typeof(line) !== 'string') {
+                start = line.toString();
+              } else {
+                start = line;
+              }
+              finish = Array.from(start).reverse().join('');
+              if(start === finish) {
+                return(true);
+              } else {
+                return(false);
+              }
+            } 
+          </pre>
+        </code>
+      </section>
+
+      <section class="english">
+        <p class="text">
+          Basic knowledge in English
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
