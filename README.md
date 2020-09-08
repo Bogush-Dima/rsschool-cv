@@ -1,2 +1,2 @@
 
-https://bogush-dima.github.io/rsschool-cv/index.html
+https://bogush-dima.github.io/rsschool-cv/
