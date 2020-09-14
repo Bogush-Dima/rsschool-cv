@@ -1,6 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .container {
@@ -12,14 +18,19 @@ li {
   font-size: 1.1em;
 }
 
+.header {
+  margin-bottom: 60px;
+}
+
 .photo {
   width: 250px;
-  border-radius: 75px;
+  border-radius: 150px;
 }
 
 .header__inner {
   display: inline-block;
   margin-left: 70px;
+  transform: translateY(-70%);
 }
 
 .main-title {
@@ -29,6 +40,7 @@ li {
 .title {
   text-transform: capitalize;
   font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 .address__item, span {
@@ -37,4 +49,16 @@ li {
 
 .text {
   font-size: 1.3em;
+}
+
+.summary {
+  margin-bottom: 30px;
+}
+
+.skills {
+  margin-bottom: 30px;
+}
+
+.code {
+  margin-bottom: 30px;
 }
